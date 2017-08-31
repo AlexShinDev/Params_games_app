@@ -1,0 +1,8 @@
+<h1>Welcome To Guess The Number!</h1>
+
+<%= form_tag "/form_guess_send", method: :post do %>
+  <div>
+    Enter Guess: <input type="text" name="form_guess">
+  </div>
+  <input type="submit" value="Send Guess">
+<% end %>
